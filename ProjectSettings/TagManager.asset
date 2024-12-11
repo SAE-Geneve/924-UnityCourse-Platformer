@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Contacts
   layers:
   - Default
   - TransparentFX
@@ -41,3 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 2865612877
+    locked: 0
+  - name: mario
+    uniqueID: 164087329
+    locked: 0
+  - name: plaftorm
+    uniqueID: 475802993
+    locked: 0
+  - name: foreground
+    uniqueID: 1155526793
+    locked: 0
+  m_RenderingLayers:
+  - Default

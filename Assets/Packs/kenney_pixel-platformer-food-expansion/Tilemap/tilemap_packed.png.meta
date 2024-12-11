@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tilemap_packed_0
+      name: bg_food_solo
       rect:
         serializedVersion: 2
         x: 0
@@ -135,7 +135,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_1
+      name: bg_food_1x_flat_left
       rect:
         serializedVersion: 2
         x: 18
@@ -157,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_2
+      name: bg_food_1x_flat_mid
       rect:
         serializedVersion: 2
         x: 36
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_3
+      name: bg_food_1x_flat_right
       rect:
         serializedVersion: 2
         x: 54
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_16
+      name: bg_food_1x_vert_top
       rect:
         serializedVersion: 2
         x: 0
@@ -487,7 +487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_17
+      name: bg_food_square_left_top
       rect:
         serializedVersion: 2
         x: 18
@@ -509,7 +509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_18
+      name: bg_food_square_mid_top
       rect:
         serializedVersion: 2
         x: 36
@@ -531,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_19
+      name: bg_food_square_right_top
       rect:
         serializedVersion: 2
         x: 54
@@ -817,7 +817,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_32
+      name: bg_food_1x_vert_mid
       rect:
         serializedVersion: 2
         x: 0
@@ -839,7 +839,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_33
+      name: bg_food_square_left_mid
       rect:
         serializedVersion: 2
         x: 18
@@ -861,7 +861,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_34
+      name: bg_food_square_mid_mid
       rect:
         serializedVersion: 2
         x: 36
@@ -883,7 +883,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_35
+      name: bg_food_square_right_mid
       rect:
         serializedVersion: 2
         x: 54
@@ -1169,7 +1169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_48
+      name: bg_food_1x_vert_bottom
       rect:
         serializedVersion: 2
         x: 0
@@ -1191,7 +1191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_49
+      name: bg_food_square_left_bottom
       rect:
         serializedVersion: 2
         x: 18
@@ -1213,7 +1213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_50
+      name: bg_food_square_mid_bottom
       rect:
         serializedVersion: 2
         x: 36
@@ -1235,7 +1235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_51
+      name: bg_food_square_right_bottom
       rect:
         serializedVersion: 2
         x: 54
@@ -2590,8 +2590,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tilemap_packed_0: -1453350334737186109
-      tilemap_packed_1: -1019335753
+      bg_food_1x_flat_mid: -326659625
+      bg_food_1x_flat_right: 696619526
+      bg_food_1x_vert_bottom: 225185117
+      bg_food_1x_vert_mid: -2098211583
+      bg_food_1x_vert_top: 2146547446
+      bg_food_solo: -1453350334737186109
+      bg_food_square_left_bottom: 957855294
+      bg_food_square_left_mid: -1237087492
+      bg_food_square_left_top: -2032257772
+      bg_food_square_mid_bottom: -1453166043
+      bg_food_square_mid_mid: -221688123
+      bg_food_square_mid_top: 1097938244
+      bg_food_square_right_bottom: 1431733168
+      bg_food_square_right_mid: 986065450
+      bg_food_square_right_top: 1021244925
       tilemap_packed_10: -331510473
       tilemap_packed_100: -1109711816
       tilemap_packed_101: 332882855
@@ -2610,11 +2623,7 @@ TextureImporter:
       tilemap_packed_13: 587089296
       tilemap_packed_14: -1885118274
       tilemap_packed_15: -1704785339
-      tilemap_packed_16: 2146547446
-      tilemap_packed_17: -2032257772
-      tilemap_packed_18: 1097938244
-      tilemap_packed_19: 1021244925
-      tilemap_packed_2: -326659625
+      "tilemap_packed_17\xA7": -1019335753
       tilemap_packed_20: -1846372456
       tilemap_packed_21: 1598665414
       tilemap_packed_22: 1487383473
@@ -2625,13 +2634,8 @@ TextureImporter:
       tilemap_packed_27: 302978584
       tilemap_packed_28: 77590199
       tilemap_packed_29: -1263200313
-      tilemap_packed_3: 696619526
       tilemap_packed_30: -1526329399
       tilemap_packed_31: -98394865
-      tilemap_packed_32: -2098211583
-      tilemap_packed_33: -1237087492
-      tilemap_packed_34: -221688123
-      tilemap_packed_35: 986065450
       tilemap_packed_36: 1268576157
       tilemap_packed_37: 61353042
       tilemap_packed_38: -640379251
@@ -2645,11 +2649,7 @@ TextureImporter:
       tilemap_packed_45: -981371086
       tilemap_packed_46: -1254514383
       tilemap_packed_47: 237769029
-      tilemap_packed_48: 225185117
-      tilemap_packed_49: 957855294
       tilemap_packed_5: -1509023181
-      tilemap_packed_50: -1453166043
-      tilemap_packed_51: 1431733168
       tilemap_packed_52: -223095068
       tilemap_packed_53: 1552075729
       tilemap_packed_54: -565347030
