@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     public void OnRun(InputAction.CallbackContext context)
     {
         _horizontalInput = context.ReadValue<float>();
-        Debug.Log("On Run : " + _horizontalInput);
+        // Debug.Log("On Run : " + _horizontalInput);
     }
     
 }

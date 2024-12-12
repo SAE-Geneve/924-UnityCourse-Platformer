@@ -399,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_13
+      name: Donut_Picked
       rect:
         serializedVersion: 2
         x: 234
@@ -421,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_14
+      name: Donut_Pickable
       rect:
         serializedVersion: 2
         x: 252
@@ -2590,6 +2590,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Donut_Pickable: -1885118274
+      Donut_Picked: 587089296
       bg_food_1x_flat_mid: -326659625
       bg_food_1x_flat_right: 696619526
       bg_food_1x_vert_bottom: 225185117
@@ -2620,8 +2622,6 @@ TextureImporter:
       tilemap_packed_110: 1476308441
       tilemap_packed_111: 1431818486
       tilemap_packed_12: 836007909
-      tilemap_packed_13: 587089296
-      tilemap_packed_14: -1885118274
       tilemap_packed_15: -1704785339
       "tilemap_packed_17\xA7": -1019335753
       tilemap_packed_20: -1846372456
